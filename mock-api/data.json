@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "mario@gmail.com",
+      "username": "mariog",
+      "password": "123456g",
+      "id": 1
+    },
+    {
+      "email": "rossella@gmail",
+      "username": "rossp",
+      "password": "123445554",
+      "id": 2
+    },
+    {
+      "email": "rossella@gmail",
+      "username": "rossp",
+      "password": "123445554",
+      "id": 3
+    },
+    {
+      "email": "luisa@gmail",
+      "username": "luisac",
+      "password": "123456",
+      "id": 4
+    }
+  ],
+  "posts": []
+}
