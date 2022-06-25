@@ -32,6 +32,7 @@ export class LoginComponent implements OnInit {
           console.log("matched");
           this.snackbar.open('Login successfull', 'OK');
           this.userService.user = res[0]; //res è un array
+          localStorage.setItem('user', JSON.stringify(res[0])); //user rimane in memoria anche se refresho pagina
           this.router.navigate(['/posts']);
         } else {console.log("incorrect password");
         this.snackbar.open("Incorrect password", 'OK');

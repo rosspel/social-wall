@@ -16,6 +16,7 @@ export class TopbarComponent implements OnInit {
 
   logout() {
     this.userService.user = undefined;
+    localStorage.clear();
     this.router.navigate(['/login']);
   }
 

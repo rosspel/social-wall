@@ -26,6 +26,7 @@ export class CreateAccountComponent implements OnInit {
     this.userService.createNewUser(this.createForm.value).then((res) => {
       console.log(res);
       this.userService.user = res; //res è un oggetto
+      localStorage.setItem('user', JSON.stringify(res));
       this.router.navigate(['/posts']);
     }).catch((err) => {
     console.log(err)});

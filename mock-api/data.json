@@ -25,5 +25,43 @@
       "id": 4
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "username": "mariog",
+      "text": "text",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-3e092.appspot.com/o/images%2F1656151255857?alt=media&token=9c00471c-3f9b-4304-9c13-0eac18e96838",
+      "likes": [],
+      "comments": [],
+      "id": 1
+    },
+    {
+      "username": "mariog",
+      "text": "Amazing",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-3e092.appspot.com/o/images%2F1656151910726?alt=media&token=3ac3e231-1a5f-4d60-9dd6-d692154d356a",
+      "likes": [],
+      "comments": [],
+      "id": 2
+    },
+    {
+      "username": "mariog",
+      "text": "Hello World!",
+      "imageURL": "",
+      "likes": [],
+      "comments": [
+        {
+          "username": "mariog",
+          "comment": "Testing comments"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "username": "mariog",
+      "text": "Wow!",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-3e092.appspot.com/o/images%2F1656156140989?alt=media&token=04984e9d-f575-48a8-8af8-02a4acaa7810",
+      "likes": [],
+      "comments": [],
+      "id": 4
+    }
+  ]
 }
